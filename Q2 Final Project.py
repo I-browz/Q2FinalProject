@@ -1,6 +1,14 @@
 # Q2 Project 
 def fcn(x):
-    return 2*x + 3
+    return 3*x + 5
     
-    if fcn(guess) < 6
-    guess 
+def solver(guess):
+    # fcn(x) = 0
+    while fcn(guess) !=0:
+        fguess = fcn(guess)
+        print guess
+        if fguess > 0:
+            guess = guess/2.0
+        elif fguess < 0:
+            guess = guess * 2.0
+            var = raw_input("")
